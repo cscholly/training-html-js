@@ -1,1 +1,1 @@
-alert("Coming Soon : VAT Calculator");
+alert("We're working on it...");
