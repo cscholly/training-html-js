@@ -1,1 +1,1 @@
-alert("Hello, world");
+alert("Coming Soon : VAT Calculator");
