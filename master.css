@@ -3,10 +3,12 @@ html {
     background-image: -webkit-linear-gradient(270deg,rgb(230,233,233) 0%,rgb(216,221,221) 100%);
     background-image: linear-gradient(270deg,rgb(230,233,233) 0%,rgb(216,221,221) 100%);
     -webkit-font-smoothing: antialiased;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-    margin: 0 auto;
+    margin: 0 auto 100px; /* bottom = footer height */
     padding: 2em 2em 4em;
     max-width: 960px;
     font-family: 'Source Sans Pro';
@@ -15,6 +17,16 @@ body {
     
     background-color: #ffffff;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    font-size: 10px;
+    text-align: center;
 }
 
 h1,h2,h3,h4,h5 {
@@ -34,4 +46,3 @@ a {
 .text-center {
     text-align: center;
 }
-
