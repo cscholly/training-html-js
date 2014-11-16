@@ -5,10 +5,9 @@ var vatamount = 0;
 var totalamount = 0;
 var vatpercentage = 1.14;
 
-//get value from user
-exvat = prompt("Enter amount.");
-
-// calculation
-totalamount = exvat * vatpercentage;
-
-alert(totalamount);
+//get value from user and calc VAT
+function calcVAT() { 
+var exvat = document.getElementById('input').value; 
+totalamount = exvat * vatpercentage 
+document.getElementById('result').value = totalamount; 
+}
