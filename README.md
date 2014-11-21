@@ -5,4 +5,4 @@ Training and Playground
 
 
 References:
-http://vatcalconline.com
+vatcalconline.com
