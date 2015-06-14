@@ -36,7 +36,7 @@ document.getElementById('vat').innerHTML = vatamount;
 document.getElementById('exclude_vat').innerHTML = totalamount;
 }
 
-//currency
+//currency formatting
 function currencyFormat (num) {
     return "R" + num.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")
 }
