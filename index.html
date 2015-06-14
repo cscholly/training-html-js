@@ -1,33 +1,125 @@
-<html>
-    <header>
-        <title>South African VAT Calculator</title>
-        <link rel="stylesheet" type="text/css" href="master.css">
-    </header>
-        <body>
-            <h1 class="text-center">VAT Calculator</h1>
-            <p class="text-center">A basic calculator for adding South African VAT to an amount.</p>
-                <h1 class="text-center">Enter amount excluding VAT:</h1>
-                <div id="calcbox" class="text-center">
-                    <input type="text" id="input" name="input" onchange="calcVAT()" />
-                    <p class="text-center">Click here to calc</p>
-                    <input type="text" id="result" name="totalamount" readonly="readonly"/> 
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>South African VAT Calculator</title>
+    <link rel="shortcut icon" href="">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+    <style>
+        body {
+            padding-top: 50px;
+        }
+        
+        .starter-template {
+            padding: 40px 15px;
+            text-align: center;
+        }
+    </style>
+
+    <!--[if IE]>
+        <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="http://www.vatcalculator.co.za">VAT Calculator</a>
+            </div>
+
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Calculate VAT</a></li>
+                    <li><a href="#ComingSoon">Subtract VAT - Coming Soon</a></li>
+                    <!-- <li><a href="#contact">Contact</a></li>-->
+                </ul>
+            </div>
+            <!--.nav-collapse -->
+        </div>
+    </nav>
+
+    <div id=wrap>
+        <div class="container">
+            <div class="row">
+                <div class="jumbotron" style="margin-top:30px">
+                    <h2>A basic calculator for adding South African VAT</h2>
                 </div>
-            <!-- footer start -->
-            <footer>Copyright 2014 | All rights reserved</footer>
-            <!-- footer end -->
-        </body>
-    <script src="script.js"></script>
-    
-    <!-- Google Analytics Start -->
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-        ga('create', 'UA-56802018-1', 'auto');
-        ga('send', 'pageview');
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Calculate excluding VAT</h3>
+                    </div>
+                    <div class="panel-body">
+                        <form>
+                            <div id="calcbox">
+                                <div class="form-group" style="margin-bottom: 0px;">
+                                    <div class="input-group">
+                                        <span class="input-group-addon">R</span>
+                                        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" id="input">
+                                    </div>
+                                    <div style="margin-top:10px">
+                                        <button type="submit" class="btn btn-default" onclick="calcVAT(); return false;">Calculate</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <table class="table">
+                        <tr>
+                            <td>Orignal amount</td>
+                            <td class="text-right">R<span id=exclude_vat>0.00</span></td>
+                        </tr>
+                        <tr>
+                            <td>VAT portion</td>
+                            <td class="text-right">R<span id=vat>0.00</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Total</strong></td>
+                            <td class="text-right"><strong>R<span id=include_vat>0.00</span></strong></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
 
-    </script>
-    <!-- Google Analytics End -->
+
+        </div>
+
+    </div>
+    <!-- wrap end -->
+
+    <!-- footer start -->
+    <footer class="footer">
+        <div class="container">
+            <p class="text-muted">All rights reserved | Copyright 2015</p>
+        </div>
+        </div>
+        <!-- footer end -->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+</body>
+
+<!-- VAT calculation scripts -->
+<script src="js/calculation.js"></script>
+
 </html>
