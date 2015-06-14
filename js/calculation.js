@@ -8,10 +8,11 @@ var totalamount = 0;
 var vatpercentage = 1.14;
     //calculations
 var exvat = document.getElementById('input').value; 
-exvat = parseFloat(exvat).toFixed(2);
-vatamount = parseFloat(((exvat * 14)/100)).toFixed(2);
-totalamount = parseFloat(Math.round((exvat * vatpercentage)*100)/100).toFixed(2);
-document.getElementById('exclude_vat').innerHTML = exvat;
+exvat = parseFloat(exvat);
+vatamount = currencyFormat (parseFloat(((exvat * 14)/100)));
+totalamount = currencyFormat (parseFloat(Math.round((exvat * vatpercentage)*100)/100));
+exvat_converted = currencyFormat (parseFloat(exvat));
+document.getElementById('exclude_vat').innerHTML = exvat_converted;
 document.getElementById('vat').innerHTML = vatamount;
 document.getElementById('include_vat').innerHTML = totalamount;
 }
@@ -26,10 +27,16 @@ var totalamount = 0;
 var vatpercentage = 1.14;
     //calculations
 var inclvat = document.getElementById('input').value; 
-inclvat = parseFloat(inclvat).toFixed(2);
-vatamount = parseFloat(Math.abs((inclvat/1.14)-inclvat)).toFixed(2);
-totalamount = parseFloat(Math.round((inclvat / vatpercentage)*100)/100).toFixed(2);
-document.getElementById('include_vat').innerHTML = inclvat;
+inclvat = parseFloat(inclvat);
+vatamount = currencyFormat (parseFloat(Math.abs((inclvat/1.14)-inclvat)));
+totalamount = currencyFormat (parseFloat(Math.round((inclvat / vatpercentage)*100)/100));
+inclvat_converted = currencyFormat (parseFloat(inclvat));
+document.getElementById('include_vat').innerHTML = inclvat_converted;
 document.getElementById('vat').innerHTML = vatamount;
 document.getElementById('exclude_vat').innerHTML = totalamount;
+}
+
+//currency
+function currencyFormat (num) {
+    return "R" + num.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")
 }
