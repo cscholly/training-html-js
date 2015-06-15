@@ -15,6 +15,8 @@ function addVAT() {
     document.getElementById('exclude_vat').innerHTML = exvat_converted;
     document.getElementById('vat').innerHTML = vatamount;
     document.getElementById('include_vat').innerHTML = totalamount;
+    document.getElementById('addResult').className = "panel panel-success fade in";
+    document.getElementById('addResult').style.backgroundColor = "#DFF0D8";
 }
 
 //get value from user and exclude VAT
@@ -34,6 +36,8 @@ function exclVAT() {
     document.getElementById('include_vat').innerHTML = inclvat_converted;
     document.getElementById('vat').innerHTML = vatamount;
     document.getElementById('exclude_vat').innerHTML = totalamount;
+    document.getElementById('addResult').className = "panel panel-success fade in";
+    document.getElementById('addResult').style.backgroundColor = "#DFF0D8";
 }
 
 // Reset form
