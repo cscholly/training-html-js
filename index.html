@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
+    <meta name="description" content="Simple calculator for adding VAT to an amount.">
     <meta name="author" content="">
     <title>South African VAT Calculator | Adding VAT</title>
     <link rel="shortcut icon" href="">
@@ -151,18 +151,25 @@
     <!-- footer start -->
     <footer class="footer">
         <div class="container">
-            <p class="text-muted">All rights reserved | Copyright 2015</p>
+            <p class="text-muted">All rights reserved | Copyright 2015 | <a tabindex="0" role="button" data-toggle="popover" data-trigger="focus" title="Important information" data-placement="top" data-content="The information and calculations obtained from this website is used at your own risk.">Disclaimer</a></p>
         </div>
-        </div>
-        <!-- footer end -->
+    </footer>
+    <!-- footer end -->
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
 </body>
 
 <!-- VAT calculation scripts -->
 <script src="js/calculation.js"></script>
+
+<!-- Initialize Popover -->
+<script>
+    $(document).ready(function() {
+        $('[data-toggle="popover"]').popover();
+    });
+</script>
 
 <!-- Google Analytics Start -->
 <script>
