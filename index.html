@@ -45,7 +45,7 @@
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="index.html">Add VAT</a></li>
-                    <li><a href="exclude_vat.html">Exclude VAT</a></li>
+                    <li><a href="exclude_vat.html">Exclude VAT  <span class="label label-success"> NEW</span></a></li>
                     <!-- <li><a href="#contact">Contact</a></li>-->
                 </ul>
             </div>
@@ -73,7 +73,8 @@
                                         <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" id="input">
                                     </div>
                                     <div style="margin-top:10px">
-                                        <button type="submit" class="btn btn-default" onclick="addVAT(); return false;">Add VAT</button> <button type="submit" class="btn btn-default" onclick="resetCalc(); return false;">Clear</button>
+                                        <button type="submit" class="btn btn-default" onclick="addVAT(); return false;">Add VAT</button>
+                                        <button type="submit" class="btn btn-default" onclick="resetCalc(); return false;">Clear</button>
                                     </div>
                                 </div>
                             </div>
@@ -99,10 +100,48 @@
                     </table>
                 </div>
             </div>
-
-
+            <div class="page-header">
+                <h1>Helpful information <small>What is South African VAT all about?</small></h1>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">VAT explained</h3>
+                        </div>
+                        <div class="panel-body">
+                            <p>VAT is the acronym for Value-added Tax. In essence it is the indirect tax on the consumption of goods and services in the South African economy.</p>
+                            <p>Revenue is raised for government by requiring certain businesses to register and to charge VAT on the taxable supplies of goods and services.</p>
+                            <a href="http://www.sars.gov.za/TaxTypes/VAT/Pages/default.aspx" class="btn btn-primary btn-sm" role="button" target="_blank">Official SARS definition</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Who should register for VAT?</h3>
+                        </div>
+                        <div class="panel-body">
+                            <p>Any person that does business, may register his or her entity for VAT. Person in this case is not only limited to companies, but can be individuals, partnerships, companies and many other.</p>
+                            <p>If your turnover exceeds R1 million per consecutive 12 month period, it becomes mandatory to register.</p>
+                            <a href="http://www.sars.gov.za/ClientSegments/Businesses/My-Bus-and-Tax/Pages/Register-and-Deregister-for-VAT.aspx" class="btn btn-primary btn-sm" role="button" target="_blank">More on registering for VAT</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Preparing for VAT</h3>
+                        </div>
+                        <div class="panel-body">
+                            <p>Once you or your trading entity is registered for VAT, you must adhere to certain duties and take responsibility for, including VAT on your products and services.</p>
+                            <p>Charge for and collect VAT as well as maintaining records related to all transactions.</p>
+                            <a href="http://www.sars.gov.za/TaxTypes/VAT/Pages/Getting-ready-for-VAT.aspx" class="btn btn-primary btn-sm" role="button" target="_blank">Getting ready for VAT</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
     </div>
     <!-- wrap end -->
 
@@ -121,18 +160,24 @@
 
 <!-- VAT calculation scripts -->
 <script src="js/calculation.js"></script>
-    
-    <!-- Google Analytics Start -->
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-        ga('create', 'UA-56802018-1', 'auto');
-        ga('send', 'pageview');
+<!-- Google Analytics Start -->
+<script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-    </script>
-    <!-- Google Analytics End -->
+    ga('create', 'UA-56802018-1', 'auto');
+    ga('send', 'pageview');
+</script>
+<!-- Google Analytics End -->
 
 </html>
