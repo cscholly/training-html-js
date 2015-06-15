@@ -46,7 +46,7 @@
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="index.html">Add VAT</a></li>
                     <li><a href="exclude_vat.html">Exclude VAT  <span class="label label-success"> NEW</span></a></li>
-                    <!-- <li><a href="#contact">Contact</a></li>-->
+                    <li><a href="mailto:webmaster@vatcalculator.co.za">Email feedback and suggestions</a></li>
                 </ul>
             </div>
             <!--.nav-collapse -->
@@ -59,7 +59,7 @@
             <!-- News and Updates pop-up start-->
             <div class="alert alert-info alert-dismissible fade in" role="alert" style="margin-top:30px" ;>
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <strong>Updated!</strong> Now you can calculate excluding amounts.
+                <strong>Updated -</strong> Now you can calculate excluding amounts. <a href="exclude_vat.html" class="alert-link">Try it now!</a>
             </div>
             <!-- News and Updates pop-up end -->
 
@@ -167,6 +167,8 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-557eccdd09b75a91" async="async"></script>
 
 </body>
 
@@ -175,7 +177,41 @@
 
 <!-- jQuery Cookie remember https://github.com/js-cookie/js-cookie-->
 <script src="js/js.cookie-1.5.1.min.js"></script>
+<script>
+    // When document is ready replaces the need for onload
+    jQuery(function($) {
 
+        // Grab your button (based on your posted html)
+        $('.close').click(function(e) {
+
+            // Do not perform default action when button is clicked
+            e.preventDefault();
+
+            /* If you just want the cookie for a session don't provide an expires
+             Set the path as root, so the cookie will be valid across the whole site */
+            $.cookie('alert-box', 'closed', {
+                path: '/'
+            }, {
+                expires: 7
+            });
+
+        });
+
+    });
+</script>
+
+<script>
+    jQuery(function($) {
+
+        // Check if alert has been closed
+        if ($.cookie('alert-box') === 'closed') {
+
+            $('.alert').hide();
+
+        }
+
+    });
+</script>
 
 <!-- Initialize Popover -->
 <script>
