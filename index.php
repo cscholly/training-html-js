@@ -1,3 +1,5 @@
+<?php $page=basename($_SERVER[ 'SCRIPT_NAME']); ?>
+
 <!DOCTYPE html>
 <html lang="">
 
@@ -32,81 +34,19 @@
 <body>
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
-            <?php include ('includes/menu.php'); ?>
-
+            <?php include ( 'includes/menu.php'); ?>
             <!--.nav-collapse -->
         </div>
     </nav>
 
     <div id=wrap>
         <div class="container">
-
-            <!-- News and Updates pop-up start-->
+           <!-- News and Updates pop-up start-->
             <div class="alert alert-info alert-dismissible fade in" role="alert" style="margin-top:30px" ;>
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <strong>Updated -</strong> Now you can calculate excluding amounts. <a href="exclude_vat.html" class="alert-link">Try it now!</a>
+                <strong>Updated -</strong> Now you can calculate excluding VAT amounts. <a href="exclude_vat.php" class="alert-link">Try it now!</a>
             </div>
             <!-- News and Updates pop-up end -->
-
-            <div class="jumbotron" style="margin-top:30px">
-                <h2>A basic calculator for adding South African VAT</h2>
-            </div>
-
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">Enter amount</h3>
-                        </div>
-                        <div class="panel-body">
-                            <form id="calcForm">
-                                <div id="calcbox">
-                                    <div class="form-group" style="margin-bottom: 0px;">
-                                        <div class="input-group">
-                                            <span class="input-group-addon">R</span>
-                                            <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" id="input">
-                                        </div>
-                                        <div style="margin-top:10px">
-                                            <button type="submit" class="btn btn-default" onclick="addVAT(); return false;">Add VAT</button>
-                                            <button type="submit" class="btn btn-default" onclick="resetCalc(); return false;">Clear</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div id="addResult" class="panel panel-default">
-                        <div class="panel-body">
-                            <table class="table" style="margin-bottom: 5px;">
-                                <tr>
-                                    <td>Amount excluding VAT</td>
-                                    <td class="text-right"><span id=exclude_vat>0.00</span></td>
-                                </tr>
-                                <tr>
-                                    <td>VAT portion (14%)</td>
-                                    <td class="text-right"><span id=vat>0.00</span></td>
-                                </tr>
-                                <tr>
-                                    <td><strong>Amount including VAT</strong></td>
-                                    <td class="text-right"><strong><span id=include_vat>0.00</span></strong></td>
-                                </tr>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="panel panel-default">
-                <div class="panel-body text-center">
-                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                    <!-- VAT - Leaderboard - Home -->
-                    <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-0590369945323371" data-ad-slot="4659918578"></ins>
-                    <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
-                </div>
-            </div>
             <div class="page-header">
                 <h1>Helpful information <small>What is South African VAT all about?</small></h1>
             </div>
@@ -148,6 +88,36 @@
                     </div>
                 </div>
             </div>
+            <div class="panel panel-default">
+                <div class="panel-body text-center">
+                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <!-- VAT - Leaderboard - Home -->
+                    <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-0590369945323371" data-ad-slot="4659918578"></ins>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                </div>
+            </div>
+
+            <div class="page-header">
+                <h1>Downloadable Files <small>Guides and documents supplied by SARS</small></h1>
+            </div>
+            <ul class="list-group">
+                <li class="list-group-item">Guide - VAT Vendors information <em>(aimed at all registered VAT entities)</em>
+                    <a href="downloads/LAPD-VAT-G02%20-%20VAT%20404%20Guide%20for%20Vendors%20-%20External%20Guide.pdf" class="pull-right" target="_blank"> <span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
+                </li>
+                <li class="list-group-item">Guide - Using VAT eFiling
+                    <a href="downloads/GEN-ELEC-04-G01%20-%20Guide%20for%20Value%20Added%20Tax%20via%20eFiling%20-%20External%20Guide.pdf" class="pull-right" target="_blank"> <span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
+                </li>
+                <li class="list-group-item">Form - Application for Registration for Value Added Tax
+                    <a href="downloads/VAT101%20-%20Application%20for%20Registration%20for%20Value%20Added%20Tax%20-%20External%20Form.pdf" class="pull-right" target="_blank"> <span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
+                </li>
+            </ul>
+            <div class="pull-right">
+                <a href="add_vat.php" class="btn btn-primary btn-sm" role="button">Adding VAT calculator</a>
+                <a href="exclude_vat.php" class="btn btn-primary btn-sm" role="button">Excluding VAT calculator</a>
+                <a href="http://www.sars.gov.za/Pages/Forms.aspx?pageid=C62;" class="btn btn-primary btn-sm" role="button" target="_blank">For more guides and forms visit SARS.org.za</a>
+            </div>
         </div>
     </div>
     <!-- wrap end -->
@@ -155,7 +125,7 @@
     <!-- footer start -->
     <footer class="footer">
         <div class="container">
-            <?php include ('includes/footer.php'); ?>
+            <?php include ( 'includes/footer.php'); ?>
         </div>
     </footer>
     <!-- footer end -->
