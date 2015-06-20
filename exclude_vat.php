@@ -32,7 +32,7 @@
 <body>
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
-            <?php include '/include/menu.php';?>
+            <?php include ('includes/menu.php'); ?>
             <!--.nav-collapse -->
         </div>
     </nav>
@@ -125,7 +125,7 @@
     <!-- footer start -->
     <footer class="footer">
         <div class="container">
-            <?php include '/include/footer.php';?>
+            <?php include ('includes/footer.php'); ?>
         </div>
     </footer>
     <!-- footer end -->
