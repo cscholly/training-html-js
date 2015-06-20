@@ -11,7 +11,8 @@
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="index.php">Add VAT</a></li>
-                    <li><a href="exclude_vat.php">Exclude VAT  <span class="label label-success"> NEW</span></a></li>
+                    <li><a href="exclude_vat.php">Exclude VAT </a></li>
+                    <li><a href="vat_information.php">Helpful VAT information <span class="label label-success"> NEW</span></a></li>
                     <li><a href="mailto:webmaster@vatcalculator.co.za">Email feedback and suggestions</a></li>
                 </ul>
             </div>'; ?>
