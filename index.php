@@ -32,23 +32,8 @@
 <body>
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="http://www.vatcalculator.co.za">VAT Calculator</a>
-            </div>
+            <?php include ('includes/menu.php'); ?>
 
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">Add VAT</a></li>
-                    <li><a href="exclude_vat.html">Exclude VAT  <span class="label label-success"> NEW</span></a></li>
-                    <li><a href="mailto:webmaster@vatcalculator.co.za">Email feedback and suggestions</a></li>
-                </ul>
-            </div>
             <!--.nav-collapse -->
         </div>
     </nav>
@@ -113,7 +98,7 @@
                 </div>
             </div>
             <div class="panel panel-default">
-                <div class="panel-body">
+                <div class="panel-body text-center">
                     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                     <!-- VAT - Leaderboard - Home -->
                     <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-0590369945323371" data-ad-slot="4659918578"></ins>
@@ -170,7 +155,7 @@
     <!-- footer start -->
     <footer class="footer">
         <div class="container">
-            <p class="text-muted">All rights reserved | Copyright 2015 | <a tabindex="0" role="button" data-toggle="popover" data-trigger="focus" title="Important information" data-placement="top" data-content="The information and calculations obtained from this website is used at your own risk.">Disclaimer</a></p>
+            <?php include ('includes/footer.php'); ?>
         </div>
     </footer>
     <!-- footer end -->
