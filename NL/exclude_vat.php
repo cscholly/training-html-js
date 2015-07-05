@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Simple calculator for determining the original amount before VAT was included.">
     <meta name="author" content="">
-    <title>South African VAT Calculator | Excluding VAT</title>
+    <title>Netherlands VAT Calculator | Excluding VAT</title>
     <link rel="shortcut icon" href="">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap-theme.css">
@@ -32,15 +32,18 @@
 </head>
 
 <body>
-   <!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PCMSX7"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-PCMSX7');</script>
-<!-- End Google Tag Manager -->
+   <!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-56802018-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <?php include ( 'includes/menu.php'); ?>
@@ -51,7 +54,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div id=wrap>
         <div class="container">
             <div class="jumbotron" style="margin-top:30px">
-                <h2>A basic calculator for excluding South African VAT</h2>
+                <h2>A basic calculator for excluding VAT | Netherlands</h2>
             </div>
 
             <div class="row">
@@ -66,7 +69,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 <div id="calcbox">
                                     <div class="form-group" style="margin-bottom: 0px;">
                                         <div class="input-group">
-                                            <span class="input-group-addon">R</span>
+                                            <span class="input-group-addon">€</span>
                                             <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" id="input">
                                         </div>
                                         <div style="margin-top:10px">
@@ -89,7 +92,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                     <td class="text-right"><span id=include_vat>0.00</span></td>
                                 </tr>
                                 <tr>
-                                    <td>VAT portion (14%)</td>
+                                    <td>VAT portion (21%)</td>
                                     <td class="text-right"><span id=vat>0.00</span></td>
                                 </tr>
                                 <tr>
@@ -104,11 +107,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="panel panel-default">
                 <div class="panel-body text-center">
                     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                    <!-- VAT - Leaderboard - Home -->
-                    <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-0590369945323371" data-ad-slot="4659918578"></ins>
-                    <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
+<!-- VAT - NL Leaderboard -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-0590369945323371"
+     data-ad-slot="6151717770"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
                 </div>
             </div>
         </div>
