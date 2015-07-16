@@ -99,7 +99,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     </div>
                 </div>
             </div>
-            <div class="panel panel-default">
+            <!-- Adsense Desktop Start -->
+            <div class="panel panel-default hidden-xs hidden-sm">
                 <div class="panel-body text-center">
                     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                     <!-- VAT - Leaderboard - Home -->
@@ -109,6 +110,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     </script>
                 </div>
             </div>
+            <!-- Adsense Desktop End -->
+            <!-- Adsense Mobi Start -->
+            <div class="panel panel-default hidden-md hidden-lg">
+                <div class="panel-body text-center">
+                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <!-- VAT - Mobi -->
+                    <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-0590369945323371"
+                     data-ad-slot="9694476574"
+                     data-ad-format="auto"></ins>
+                    <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                </div>
+            </div>
+            <!-- Adsense Mobi End -->
         </div>
     </div>
     <!-- wrap end -->
