@@ -1,4 +1,4 @@
-<?php $page = basename($_SERVER['SCRIPT_NAME']); ?>
+<?php $page=basename($_SERVER[ 'SCRIPT_NAME']); ?>
 
 <!DOCTYPE html>
 <html lang="">
@@ -6,9 +6,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Simple calculator for adding VAT to an amount.">
+    <meta name="description" content="Simple calculator for determining the original amount before VAT was included.">
     <meta name="author" content="">
-    <title>South African VAT Calculator | Adding VAT</title>
+    <title>Netherlands VAT Calculator | Excluding VAT</title>
     <link rel="shortcut icon" href="">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap-theme.css">
@@ -32,9 +32,21 @@
 </head>
 
 <body>
+   <!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-56802018-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
-            <?php include ('includes/menu.php'); ?>
+            <?php include ( 'includes/menu.php'); ?>
             <!--.nav-collapse -->
         </div>
     </nav>
@@ -42,10 +54,11 @@
     <div id=wrap>
         <div class="container">
             <div class="jumbotron" style="margin-top:30px">
-                <h2>A basic calculator for adding South African VAT</h2>
+                <h2>A basic calculator for excluding VAT | Netherlands</h2>
             </div>
 
             <div class="row">
+
                 <div class="col-md-6">
                     <div class="panel panel-default">
                         <div class="panel-heading">
@@ -56,11 +69,11 @@
                                 <div id="calcbox">
                                     <div class="form-group" style="margin-bottom: 0px;">
                                         <div class="input-group">
-                                            <span class="input-group-addon">R</span>
+                                            <span class="input-group-addon">€</span>
                                             <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" id="input">
                                         </div>
                                         <div style="margin-top:10px">
-                                            <button type="submit" class="btn btn-default" onclick="addVAT(); return false;">Add VAT</button>
+                                            <button type="submit" class="btn btn-default" onclick="exclVAT(); return false;">Remove VAT</button>
                                             <button type="submit" class="btn btn-default" onclick="resetCalc(); return false;">Clear</button>
                                         </div>
                                     </div>
@@ -69,21 +82,22 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-md-6">
                     <div id="addResult" class="panel panel-default">
                         <div class="panel-body">
                             <table class="table" style="margin-bottom: 5px;">
                                 <tr>
-                                    <td>Amount excluding VAT</td>
-                                    <td class="text-right"><span id=exclude_vat>0.00</span></td>
+                                    <td>Amount including VAT</td>
+                                    <td class="text-right"><span id=include_vat>0.00</span></td>
                                 </tr>
                                 <tr>
-                                    <td>VAT portion (14%)</td>
+                                    <td>VAT portion (21%)</td>
                                     <td class="text-right"><span id=vat>0.00</span></td>
                                 </tr>
                                 <tr>
-                                    <td><strong>Amount including VAT</strong></td>
-                                    <td class="text-right"><strong><span id=include_vat>0.00</span></strong></td>
+                                    <td><strong>Amount excluding VAT</strong></td>
+                                    <td class="text-right"><strong><span id=exclude_vat>0.00</span></strong></td>
                                 </tr>
                             </table>
                         </div>
@@ -93,11 +107,14 @@
             <div class="panel panel-default">
                 <div class="panel-body text-center">
                     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                    <!-- VAT - Leaderboard - Home -->
-                    <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-0590369945323371" data-ad-slot="4659918578"></ins>
-                    <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
+<!-- VAT - NL Leaderboard -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-0590369945323371"
+     data-ad-slot="6151717770"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
                 </div>
             </div>
         </div>
@@ -128,24 +145,5 @@
         $('[data-toggle="popover"]').popover();
     });
 </script>
-
-<!-- Google Analytics Start -->
-<script>
-    (function(i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function() {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-    ga('create', 'UA-56802018-1', 'auto');
-    ga('send', 'pageview');
-</script>
-<!-- Google Analytics End -->
 
 </html>

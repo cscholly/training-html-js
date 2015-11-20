@@ -32,6 +32,15 @@
 </head>
 
 <body>
+  <!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PCMSX7"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PCMSX7');</script>
+<!-- End Google Tag Manager -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <?php include ( 'includes/menu.php'); ?>
@@ -41,7 +50,7 @@
 
     <div id=wrap>
         <div class="container">
-           <!-- News and Updates pop-up start-->
+            <!-- News and Updates pop-up start-->
             <div class="alert alert-info alert-dismissible fade in" role="alert" style="margin-top:30px" ;>
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                 <strong>Updated -</strong> Now you can calculate excluding VAT amounts. <a href="exclude_vat.php" class="alert-link">Try it now!</a>
@@ -88,7 +97,8 @@
                     </div>
                 </div>
             </div>
-            <div class="panel panel-default">
+             <!-- Adsense Desktop Start -->
+            <div class="panel panel-default hidden-xs hidden-sm">
                 <div class="panel-body text-center">
                     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                     <!-- VAT - Leaderboard - Home -->
@@ -98,6 +108,23 @@
                     </script>
                 </div>
             </div>
+            <!-- Adsense Desktop End -->
+            <!-- Adsense Mobi Start -->
+            <div class="panel panel-default hidden-md hidden-lg">
+                <div class="panel-body text-center">
+                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <!-- VAT - Mobi -->
+                    <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-0590369945323371"
+                     data-ad-slot="9694476574"
+                     data-ad-format="auto"></ins>
+                    <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                </div>
+            </div>
+            <!-- Adsense Mobi End -->
 
             <div class="page-header">
                 <h1>Downloadable Files <small>Guides and documents supplied by SARS</small></h1>
@@ -184,24 +211,5 @@
         $('[data-toggle="popover"]').popover();
     });
 </script>
-
-<!-- Google Analytics Start -->
-<script>
-    (function(i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function() {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-    ga('create', 'UA-56802018-1', 'auto');
-    ga('send', 'pageview');
-</script>
-<!-- Google Analytics End -->
 
 </html>
