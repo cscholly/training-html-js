@@ -16,6 +16,6 @@
             <?php } ?>><a href="add_vat.php">Add VAT <span class="label label-info">Calculator</a></li>
         <li <?php if ($page=='exclude_vat.php' ) { ?>class="active"
             <?php } ?>><a href="exclude_vat.php">Exclude VAT <span class="label label-info">Calculator</a></a></li>
-        <li><a href="mailto:webmaster@vatcalculator.co.za">Email feedback and suggestions</a></li>
+        <li><a href="mailto:webmaster@vatcalculator.co.za">Any suggestions?</a></li>
     </ul>
 </div>

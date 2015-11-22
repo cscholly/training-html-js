@@ -143,7 +143,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="pull-right">
                 <a href="add_vat.php" class="btn btn-primary btn-sm" role="button">Adding VAT calculator</a>
                 <a href="exclude_vat.php" class="btn btn-primary btn-sm" role="button">Excluding VAT calculator</a>
-                <a href="http://www.payecalculator.co.za" class="btn btn-primary btn-sm" role="button">PAYE calculator</a>
+                <a href="http://www.payecalculator.co.za" class="btn btn-primary btn-sm" role="button">PAYE calculator <span class="label label-info">New!</a></a>
                 <a href="http://www.sars.gov.za/Pages/Forms.aspx?pageid=C62;" class="btn btn-primary btn-sm" role="button" target="_blank">For more guides and forms visit SARS.org.za</a>
             </div>
         </div>
