@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Simple calculator for determining the original amount before VAT was included.">
     <meta name="author" content="">
-    <title>Netherlands VAT Calculator | Excluding VAT</title>
+    <title>Nederland BTW Calculator | Exclusief BTW</title>
     <link rel="shortcut icon" href="">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap-theme.css">
@@ -54,7 +54,7 @@
     <div id=wrap>
         <div class="container">
             <div class="jumbotron" style="margin-top:30px">
-                <h2>A basic calculator for excluding VAT | Netherlands</h2>
+                <h2>Een eenvoudige calculator voor exclusief BTW | Nederland</h2>
             </div>
 
             <div class="row">
@@ -62,7 +62,7 @@
                 <div class="col-md-6">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h3 class="panel-title">Enter amount</h3>
+                            <h3 class="panel-title">Vul bedrag</h3>
                         </div>
                         <div class="panel-body">
                             <form id="calcForm">
@@ -73,8 +73,8 @@
                                             <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" id="input">
                                         </div>
                                         <div style="margin-top:10px">
-                                            <button type="submit" class="btn btn-default" onclick="exclVAT(); return false;">Remove VAT</button>
-                                            <button type="submit" class="btn btn-default" onclick="resetCalc(); return false;">Clear</button>
+                                            <button type="submit" class="btn btn-default" onclick="exclVAT(); return false;">Verwijder BTW</button>
+                                            <button type="submit" class="btn btn-default" onclick="resetCalc(); return false;">Herzien</button>
                                         </div>
                                     </div>
                                 </div>
@@ -88,15 +88,15 @@
                         <div class="panel-body">
                             <table class="table" style="margin-bottom: 5px;">
                                 <tr>
-                                    <td>Amount including VAT</td>
+                                    <td>Bedrag inclusief BTW</td>
                                     <td class="text-right"><span id=include_vat>0.00</span></td>
                                 </tr>
                                 <tr>
-                                    <td>VAT portion (21%)</td>
+                                    <td>BTW gedeelte (21%)</td>
                                     <td class="text-right"><span id=vat>0.00</span></td>
                                 </tr>
                                 <tr>
-                                    <td><strong>Amount excluding VAT</strong></td>
+                                    <td><strong>Bedrag exclusief BTW</strong></td>
                                     <td class="text-right"><strong><span id=exclude_vat>0.00</span></strong></td>
                                 </tr>
                             </table>

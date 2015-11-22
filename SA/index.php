@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Simple calculator for adding VAT to an amount.">
     <meta name="author" content="">
-    <title>South African VAT Calculator | Adding VAT</title>
+    <title>South African VAT Calculator | Adding and Subtracting VAT</title>
     <link rel="shortcut icon" href="">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap-theme.css">
@@ -53,7 +53,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <!-- News and Updates pop-up start-->
             <div class="alert alert-info alert-dismissible fade in" role="alert" style="margin-top:30px" ;>
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <strong>Updated -</strong> Now you can calculate excluding VAT amounts. <a href="exclude_vat.php" class="alert-link">Try it now!</a>
+                <strong>New -</strong> Easy to use PAYE calculator. <a href="http://www.payecalculator.co.za" class="alert-link">Try it now!</a>
             </div>
             <!-- News and Updates pop-up end -->
             <div class="page-header">
@@ -143,7 +143,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="pull-right">
                 <a href="add_vat.php" class="btn btn-primary btn-sm" role="button">Adding VAT calculator</a>
                 <a href="exclude_vat.php" class="btn btn-primary btn-sm" role="button">Excluding VAT calculator</a>
-                <a href="http://www.payecalculator.co.za" class="btn btn-primary btn-sm" role="button">PAYE calculator</a>
+                <a href="http://www.payecalculator.co.za" class="btn btn-primary btn-sm" role="button">PAYE calculator <span class="label label-info">New!</a></a>
                 <a href="http://www.sars.gov.za/Pages/Forms.aspx?pageid=C62;" class="btn btn-primary btn-sm" role="button" target="_blank">For more guides and forms visit SARS.org.za</a>
             </div>
         </div>

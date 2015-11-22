@@ -25,6 +25,11 @@ body {
 body > .container {
   padding: 60px 15px 0;
 }
+
+.jumbotron {
+  background-color: #dbf6ff;
+}
+
 .container .text-muted {
   margin: 20px 0;
 }
