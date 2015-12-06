@@ -32,15 +32,27 @@
 </head>
 
 <body>
-  <!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PCMSX7"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-PCMSX7');</script>
-<!-- End Google Tag Manager -->
+    <!-- Google Tag Manager -->
+    <noscript>
+        <iframe src="//www.googletagmanager.com/ns.html?id=GTM-PCMSX7" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PCMSX7');
+    </script>
+    <!-- End Google Tag Manager -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <?php include ( 'includes/menu.php'); ?>
@@ -85,19 +97,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">Preparing for VAT</h3>
-                        </div>
-                        <div class="panel-body">
-                            <p>Once you or your trading entity is registered for VAT, you must adhere to certain duties and take responsibility for, including VAT on your products and services.</p>
-                            <p>Charge for and collect VAT as well as maintaining records related to all transactions.</p>
-                            <a href="http://www.sars.gov.za/TaxTypes/VAT/Pages/Getting-ready-for-VAT.aspx" class="btn btn-primary btn-sm" role="button" target="_blank">Getting ready for VAT</a>
-                        </div>
-                    </div>
-                </div>
+                       <a href="htpp://www.dragontales.co.za" class="thumbnail">
+      <img src="../dev/images/dragontales.jpg" alt="DragonTales" style="width:280px; height:270px">
+    </a>
+                            </div>
             </div>
-             <!-- Adsense Desktop Start -->
+            <!-- Adsense Desktop Start -->
             <div class="panel panel-default hidden-xs hidden-sm">
                 <div class="panel-body text-center">
                     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -114,13 +119,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <div class="panel-body text-center">
                     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                     <!-- VAT - Mobi -->
-                    <ins class="adsbygoogle"
-                     style="display:block"
-                     data-ad-client="ca-pub-0590369945323371"
-                     data-ad-slot="9694476574"
-                     data-ad-format="auto"></ins>
+                    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0590369945323371" data-ad-slot="9694476574" data-ad-format="auto"></ins>
                     <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
+                        (adsbygoogle = window.adsbygoogle || []).push({});
                     </script>
                 </div>
             </div>
