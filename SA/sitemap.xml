@@ -9,39 +9,32 @@
 <url>
   <loc>http://www.vatcalculator.co.za/</loc>
   <changefreq>monthly</changefreq>
-  <priority>1.00</priority>
 </url>
 <url>
   <loc>http://www.vatcalculator.co.za/index.php</loc>
   <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.vatcalculator.co.za/add_vat.php</loc>
   <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.vatcalculator.co.za/exclude_vat.php</loc>
   <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.vatcalculator.co.za/downloads/LAPD-VAT-G02%20-%20VAT%20404%20Guide%20for%20Vendors%20-%20External%20Guide.pdf</loc>
-  <lastmod>2015-11-22T15:46:31+00:00</lastmod>
+  <lastmod>2015-12-06T12:24:54+00:00</lastmod>
   <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.vatcalculator.co.za/downloads/GEN-ELEC-04-G01%20-%20Guide%20for%20Value%20Added%20Tax%20via%20eFiling%20-%20External%20Guide.pdf</loc>
-  <lastmod>2015-11-22T15:46:11+00:00</lastmod>
+  <lastmod>2015-12-06T12:24:42+00:00</lastmod>
   <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.vatcalculator.co.za/downloads/VAT101%20-%20Application%20for%20Registration%20for%20Value%20Added%20Tax%20-%20External%20Form.pdf</loc>
-  <lastmod>2015-11-22T15:46:33+00:00</lastmod>
+  <lastmod>2015-12-06T12:24:56+00:00</lastmod>
   <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
 </url>
 </urlset>

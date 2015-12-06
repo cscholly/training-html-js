@@ -67,7 +67,7 @@
             </div>
             <div class="col-md-4" style="margin-top:30px">
                 <a href="htpp://www.dragontales.co.za" class="thumbnail">
-                    <img src="../dev/images/dragontales.jpg" alt="DragonTales" style="width:193px; height:182px">
+                    <img src="images/dragontales.jpg" alt="DragonTales" style="width:193px; height:182px">
                 </a>
             </div>
 
