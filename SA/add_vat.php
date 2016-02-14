@@ -54,7 +54,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <h2>A basic calculator for adding South African VAT</h2>
             </div>
                         <div class="col-md-4" style="margin-top:30px">
-                <a href="htpp://www.dragontales.co.za" class="thumbnail">
+                <a href="http://www.dragontales.co.za" class="thumbnail">
                     <img src="images/dragontales.jpg" alt="DragonTales" style="width:193px; height:182px">
                 </a>
             </div>

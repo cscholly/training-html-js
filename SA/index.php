@@ -97,7 +97,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <a href="htpp://www.dragontales.co.za" class="thumbnail">
+                    <a href="http://www.dragontales.co.za" class="thumbnail">
                         <img src="images/dragontales.jpg" alt="DragonTales" style="width:280px; height:270px">
                     </a>
                 </div>
