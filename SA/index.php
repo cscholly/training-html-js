@@ -105,9 +105,16 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <a href="http://www.triplebar.co.za" class="thumbnail">
-                        <img src="images/Triple-Bar-Vat-Calculator-Ad.jpg" alt="TripleBar" style="width:280px; height:270px">
-                    </a>
+                                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+                    </script>
+                        <!-- VAT SA Square -->
+                        <ins class="adsbygoogle"
+                             style="display:inline-block;width:300px;height:250px"
+                             data-ad-client="ca-pub-0590369945323371"
+                             data-ad-slot="5478372576"></ins>
+                    <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
                 </div>
             </div>
             <!-- Adsense Desktop Start -->
