@@ -13,7 +13,15 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap-theme.css">
     <link rel="stylesheet" href="css/custom.css">
-
+    
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-3909734093508165",
+    enable_page_level_ads: true
+  });
+</script>
+   
     <style>
         body {
             padding-top: 50px;
@@ -97,9 +105,16 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <a href="htpp://www.dragontales.co.za" class="thumbnail">
-                        <img src="images/dragontales.jpg" alt="DragonTales" style="width:280px; height:270px">
-                    </a>
+                                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+                    </script>
+                        <!-- VAT SA Square -->
+                        <ins class="adsbygoogle"
+                             style="display:inline-block;width:300px;height:250px"
+                             data-ad-client="ca-pub-0590369945323371"
+                             data-ad-slot="5478372576"></ins>
+                    <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
                 </div>
             </div>
             <!-- Adsense Desktop Start -->
