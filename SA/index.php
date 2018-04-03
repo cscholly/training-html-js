@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Simple calculator for adding 15% VAT to an amount.">
     <meta name="author" content="">
-    <title>15% VAT Updated | South African VAT Calculator | Adding and Subtracting 15% VAT</title>
+    <title>Updated for 15% VAT | South African VAT Calculator | Adding and Subtracting 15% VAT</title>
     <link rel="shortcut icon" href="">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap-theme.css">
@@ -73,7 +73,7 @@
             <!-- News and Updates pop-up start-->
             <div class="alert alert-info alert-dismissible fade in" role="alert" style="margin-top:30px" ;>
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <strong>New -</strong> Easy to use PAYE calculator. <a href="http://www.payecalculator.co.za" class="alert-link">Try it now!</a>
+                <strong>We now support the new 15% VAT rate.</strong>
             </div>
             <!-- News and Updates pop-up end -->
             <div class="page-header">
