@@ -51,7 +51,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div id=wrap>
         <div class="container">
             <div class="jumbotron col-md-8" style="margin-top:30px">
-                <h2>A basic calculator for adding South African VAT</h2>
+                <h2>Calculator for adding 15% South African VAT</h2>
             </div>
                 <div class="col-md-4">
                                         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
@@ -99,7 +99,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                     <td class="text-right"><span id=exclude_vat>0.00</span></td>
                                 </tr>
                                 <tr>
-                                    <td>VAT portion (14%)</td>
+                                    <td>VAT portion (15%)</td>
                                     <td class="text-right"><span id=vat>0.00</span></td>
                                 </tr>
                                 <tr>
