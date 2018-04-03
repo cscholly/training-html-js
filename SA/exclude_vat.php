@@ -6,9 +6,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Simple calculator for determining the original amount before VAT was included.">
+    <meta name="description" content="Simple calculator for determining the original amount before 15% VAT was included.">
     <meta name="author" content="">
-    <title>South African VAT Calculator | Excluding VAT</title>
+    <title>South African VAT Calculator | Excluding 15% VAT</title>
     <link rel="shortcut icon" href="">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap-theme.css">
@@ -90,7 +90,7 @@
                                     <div class="form-group" style="margin-bottom: 0px;">
                                         <div class="input-group">
                                             <span class="input-group-addon">R</span>
-                                            <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" id="input">
+                                            <input type="text" class="form-control" aria-label="Amount (to the nearest rand)" id="input">
                                         </div>
                                         <div style="margin-top:10px">
                                             <button type="submit" class="btn btn-default" onclick="exclVAT(); return false;">Remove VAT</button>
