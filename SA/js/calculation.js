@@ -4,13 +4,13 @@
     var inclvat = 0;
     var vatamount = 0;
     var totalamount = 0;
-    var vatpercentage = 1.14;
+    var vatpercentage = 1.15;
 
 function addVAT() {
     //calculations
     var exvat = document.getElementById('input').value;
     exvat = parseFloat(exvat);
-    vatamount = currencyFormat(parseFloat(((exvat * 14) / 100)));
+    vatamount = currencyFormat(parseFloat(((exvat * 15) / 100)));
     totalamount = currencyFormat(parseFloat(Math.round((exvat * vatpercentage) * 100) / 100));
     exvat_converted = currencyFormat(parseFloat(exvat));
     document.getElementById('exclude_vat').innerHTML = exvat_converted;
@@ -25,7 +25,7 @@ function exclVAT() {
     //calculations
     var inclvat = document.getElementById('input').value;
     inclvat = parseFloat(inclvat);
-    vatamount = currencyFormat(parseFloat(Math.abs((inclvat / 1.14) - inclvat)));
+    vatamount = currencyFormat(parseFloat(Math.abs((inclvat / 1.15) - inclvat)));
     totalamount = currencyFormat(parseFloat(Math.round((inclvat / vatpercentage) * 100) / 100));
     inclvat_converted = currencyFormat(parseFloat(inclvat));
     document.getElementById('include_vat').innerHTML = inclvat_converted;
