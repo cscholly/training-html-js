@@ -182,7 +182,7 @@
 </body>
 
 <!-- VAT calculation scripts -->
-<script src="js/calculation.js"></script>
+<script src="js/calculation15.js"></script>
 
 <!-- jQuery Cookie remember https://github.com/js-cookie/js-cookie-->
 <script src="js/js.cookie-1.5.1.min.js"></script>
