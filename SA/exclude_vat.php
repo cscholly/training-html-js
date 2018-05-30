@@ -168,7 +168,7 @@
 </body>
 
 <!-- VAT calculation scripts -->
-<script src="js/calculation.js"></script>
+<script src="js/calculation15.js"></script>
 
 <!-- Initialize Popover -->
 <script>
