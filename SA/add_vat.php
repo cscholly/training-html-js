@@ -159,7 +159,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </body>
 
 <!-- VAT calculation scripts -->
-<script src="js/calculation.js"></script>
+<script src="js/calculation15.js"></script>
 
 <!-- Initialize Popover -->
 <script>
