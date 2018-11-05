@@ -10,12 +10,16 @@ function addVAT() {
     //calculations
     var exvat = document.getElementById('input').value;
     exvat = parseFloat(exvat);
-    vatamount = currencyFormat(parseFloat(((exvat * 15) / 100)));
-    totalamount = currencyFormat(parseFloat(Math.round((exvat * vatpercentage) * 100) / 100));
+    vatamount = parseFloat(((exvat * 15) / 100));
+    totalamount = (parseFloat(exvat)) + (parseFloat(vatamount));
+    
     exvat_converted = currencyFormat(parseFloat(exvat));
+    vatamount_converted = currencyFormat(parseFloat(vatamount));
+    totalamount_converted = currencyFormat(parseFloat(totalamount));
+    
     document.getElementById('exclude_vat').innerHTML = exvat_converted;
-    document.getElementById('vat').innerHTML = vatamount;
-    document.getElementById('include_vat').innerHTML = totalamount;
+    document.getElementById('vat').innerHTML = vatamount_converted;
+    document.getElementById('include_vat').innerHTML = totalamount_converted;
     document.getElementById('addResult').className = "panel panel-success fade in";
     document.getElementById('addResult').style.backgroundColor = "#dbf6ff";
 }
