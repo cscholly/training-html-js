@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/custom.css">
 
     <?php include ( 'includes/header.php'); ?>
-    
+
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <?php include ( 'includes/menu.php'); ?>
@@ -86,34 +86,23 @@
                     </div>
                 </div>
             </div>
-            <!-- Adsense Desktop Start -->
-            <div class="panel panel-default hidden-xs hidden-sm">
+
+            <div class="panel panel-default">
                 <div class="panel-body text-center">
-                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                    <!-- VAT - Leaderboard - Home -->
-                    <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-0590369945323371" data-ad-slot="4659918578"></ins>
-                    <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
+                  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                  <!-- VAT Responsive Ads -->
+                  <ins class="adsbygoogle"
+                       style="display:block"
+                       data-ad-client="ca-pub-0590369945323371"
+                       data-ad-slot="5384268363"
+                       data-ad-format="auto"
+                       data-full-width-responsive="true"></ins>
+                  <script>
+                  (adsbygoogle = window.adsbygoogle || []).push({});
+                  </script>
                 </div>
             </div>
-            <!-- Adsense Desktop End -->
-            <!-- Adsense Mobi Start -->
-            <div class="panel panel-default hidden-md hidden-lg">
-                <div class="panel-body text-center">
-                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                    <!-- VAT - Mobi -->
-                    <ins class="adsbygoogle"
-                     style="display:block"
-                     data-ad-client="ca-pub-0590369945323371"
-                     data-ad-slot="9694476574"
-                     data-ad-format="auto"></ins>
-                    <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
-                </div>
-            </div>
-            <!-- Adsense Mobi End -->
+
         </div>
     </div>
     <!-- wrap end -->
@@ -128,8 +117,6 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <!-- Go to www.addthis.com/dashboard to customize your tools -->
-    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-557eccdd09b75a91" async="async"></script>
 
 </body>
 
