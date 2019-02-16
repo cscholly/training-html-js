@@ -102,7 +102,7 @@
             </div>
             <ul class="list-group">
                 <li class="list-group-item">Pocket Guide on the VAT rate increase on 1 April 2018
-                    <a href="downloads/LAPD-VAT-G02%20-%20VAT%20404%20Guide%20for%20Vendors%20-%20External%20Guide.pdf" class="pull-right" target="_blank"> <span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
+                    <a href="downloads/LAPD-VAT-G13%20-%20Pocket%20Guide%20on%20the%20VAT%20rate%20increase%20on%201%20April%202018.pdf" class="pull-right" target="_blank"> <span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
                 </li>
                 <li class="list-group-item">Guide - VAT Vendors information <em>(aimed at all registered VAT entities)</em>
                     <a href="downloads/LAPD-VAT-G02%20-%20VAT%20404%20Guide%20for%20Vendors%20-%20External%20Guide.pdf" class="pull-right" target="_blank"> <span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
@@ -111,7 +111,7 @@
                     <a href="downloads/GEN-ELEC-04-G01%20-%20Guide%20for%20Value%20Added%20Tax%20via%20eFiling%20-%20External%20Guide.pdf" class="pull-right" target="_blank"> <span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
                 </li>
                 <li class="list-group-item">Form - Application for Registration for Value Added Tax
-                    <a href="downloads/VAT101%20-%20Application%20for%20Registration%20for%20Value%20Added%20Tax%20-%20External%20Form.pdf" class="pull-right" target="_blank"> <span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
+                    <a href="downloads/VAT101%20-%20Value%20Added%20Tax%20Registration%20Application%20-%20External%20form.pdf" class="pull-right" target="_blank"> <span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
                 </li>
             </ul>
             <div class="pull-right">
