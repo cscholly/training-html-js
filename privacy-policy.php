@@ -82,9 +82,7 @@
                   <p>This Web Site is hosted, controlled and operated from the Republic of South Africa , and thus South African law governs the use or inability to use this Web Site and these terms and conditions.</p>
 
                   <p><b>CONTACT INFORMATION</b></p>
-                  <p>Any questions, queries, or requests to use any part of this Web Site can be directed to:</p>
-
-                  <p>VAT Calculator: Contact us: Please make use of our <a href="mailto:webmaster@vatcalculator.co.za?Subject=PrivacyPolicy" target="_top">Email</a>.</p>
+                  <p>Any questions, queries, or requests to use any part of this Web Site can be directed to us via <a href="mailto:webmaster@vatcalculator.co.za?Subject=PrivacyPolicy" target="_top">email</a></p>
 
                   <p><b>PRIVACY POLICY VAT</b></p>
                   <p>Calculator respects your privacy and is committed to keeping your information confidential. Generally, you can visit our Web Site without having to divulge any personal information about yourself. However, while using this Web Site you may provide information about yourself or it may be collected by us.</p>
@@ -101,9 +99,6 @@
 
                   <p><b>E-MAIL ADDRESS</b></p>
                   <p>We will only record your e-mail address if you send us a message. It will only be used for the purpose for which you provide it and will not be added to a mailing list unless you request that this be done. We will not disclose it without your consent.</p>
-
-                  <p><b>E-MAIL SUBSCRIPTIONS</b></p>
-                  <p>We maintain a list of e-mail addresses to which VAT Calculator Newsletter, our regular newsletter, is sent. Individuals must affirmatively request to join this list by using the subscribe form on the subscriptions page. Any members of this list may choose to unsubscribe at any time by using the same form. Our list server has been configured in such a way that the e-mail addresses can only be accessed by authorised VAT Calculator staff.</p>
 
                   <p><b>COOKIES</b></p>
                   <p>This Web Site makes use of cookies - a very small text file placed on your hard drive by a web server. Basically, it is your unique identification card that can only be read by the server that gave it to you.</p>
