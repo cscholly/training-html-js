@@ -36,7 +36,7 @@
                   <p>The information and content made available on this Web Site is provided by VAT Calculator, detailing information about our company and its services. We make no representations or warranties, implied or otherwise, that, amongst others, the content available on this Web Site is free from errors or omissions or that the service will be 100% uninterrupted and error free.</p>
 
                   <p>We have taken, and will continue to take, due care and diligence that all information provided on this Web Site is, to the best of our knowledge and understanding, true and correct. However, VAT Calculator shall not be liable for any damage, loss or liability of whatsoever nature arising from the use or inability to use this Web Site, any information or content provided from and through this Web Site.</p>
-                  
+
                   <p>There is no warranty of any kind, express or implied, regarding the information supplied on this Web Site or in respect of any aspect of our services. Any warranty implied by law is hereby excluded, except to the extent to which such exclusion would be unlawful.</p>
 
                   <p>Information, ideas and opinions expressed on this site should not be regarded as professional advice. Users are encouraged to consult VAT Calculator before taking any course of action related to information or opinions expressed on this site.</p>
@@ -84,51 +84,51 @@
                   <p><b>CONTACT INFORMATION</b></p>
                   <p>Any questions, queries, or requests to use any part of this Web Site can be directed to:</p>
 
-                  <p><b>VAT Calculator: Contact Number: 011 915 5023 Alternatively, please make use of our Contact Us page.</p>
+                  <p>VAT Calculator: Contact us: Please make use of our <a href="mailto:webmaster@vatcalculator.co.za?Subject=PrivacyPolicy" target="_top">Email</a>.</p>
 
-                    <p><b>PRIVACY POLICY VAT</b></p>
-                    <p>Calculator respects your privacy and is committed to keeping your information confidential. Generally, you can visit our Web Site without having to divulge any personal information about yourself. However, while using this Web Site you may provide information about yourself or it may be collected by us.</p>
+                  <p><b>PRIVACY POLICY VAT</b></p>
+                  <p>Calculator respects your privacy and is committed to keeping your information confidential. Generally, you can visit our Web Site without having to divulge any personal information about yourself. However, while using this Web Site you may provide information about yourself or it may be collected by us.</p>
 
-                    <p>Any and all information collected at this site will be kept strictly confidential. It will not be sold, loaned, reused or otherwise disclosed to any organisation. This applies to e-mail addresses and all other personal information.</p>
+                  <p>Any and all information collected at this site will be kept strictly confidential. It will not be sold, loaned, reused or otherwise disclosed to any organisation. This applies to e-mail addresses and all other personal information.</p>
 
-                    <p>We will only disclose or report personal information if and when required to do so by law or any regulatory authority and to our employees who require such information to carry out their duties.</p>
+                  <p>We will only disclose or report personal information if and when required to do so by law or any regulatory authority and to our employees who require such information to carry out their duties.</p>
 
-                    <p>Personal information is used as is appropriate in the normal course of business to provide the products and services you have requested. We may retain any information for purposes of ongoing business relationships or to communicate directly with you.</p>
+                  <p>Personal information is used as is appropriate in the normal course of business to provide the products and services you have requested. We may retain any information for purposes of ongoing business relationships or to communicate directly with you.</p>
 
-                    <p>Upon request we will furnish you with details of the personal information we hold about you. You may submit your request via our contact us page. Should you believe that any information we hold about you is incorrect, please inform us at the above page and we will correct it.</p>
+                  <p>Upon request we will furnish you with details of the personal information we hold about you. You may submit your request via our contact us page. Should you believe that any information we hold about you is incorrect, please inform us at the above page and we will correct it.</p>
 
-                    <p>Please note that, while all attempts are made to secure information transmitted to this Web Site, if you are submitting personal details or other information over the Internet which you wish to remain private, there is a possibility that information you submit could be observed by a third party while in transit.</p>
+                  <p>Please note that, while all attempts are made to secure information transmitted to this Web Site, if you are submitting personal details or other information over the Internet which you wish to remain private, there is a possibility that information you submit could be observed by a third party while in transit.</p>
 
-                    <p><b>E-MAIL ADDRESS</b></p>
-                    <p>We will only record your e-mail address if you send us a message. It will only be used for the purpose for which you provide it and will not be added to a mailing list unless you request that this be done. We will not disclose it without your consent.</p>
+                  <p><b>E-MAIL ADDRESS</b></p>
+                  <p>We will only record your e-mail address if you send us a message. It will only be used for the purpose for which you provide it and will not be added to a mailing list unless you request that this be done. We will not disclose it without your consent.</p>
 
-                    <p><b>E-MAIL SUBSCRIPTIONS</b></p>
-                    <p>We maintain a list of e-mail addresses to which VAT Calculator Newsletter, our regular newsletter, is sent. Individuals must affirmatively request to join this list by using the subscribe form on the subscriptions page. Any members of this list may choose to unsubscribe at any time by using the same form. Our list server has been configured in such a way that the e-mail addresses can only be accessed by authorised VAT Calculator staff.</p>
+                  <p><b>E-MAIL SUBSCRIPTIONS</b></p>
+                  <p>We maintain a list of e-mail addresses to which VAT Calculator Newsletter, our regular newsletter, is sent. Individuals must affirmatively request to join this list by using the subscribe form on the subscriptions page. Any members of this list may choose to unsubscribe at any time by using the same form. Our list server has been configured in such a way that the e-mail addresses can only be accessed by authorised VAT Calculator staff.</p>
 
-                    <p><b>COOKIES</b></p>
-                    <p>This Web Site makes use of cookies - a very small text file placed on your hard drive by a web server. Basically, it is your unique identification card that can only be read by the server that gave it to you.</p>
+                  <p><b>COOKIES</b></p>
+                  <p>This Web Site makes use of cookies - a very small text file placed on your hard drive by a web server. Basically, it is your unique identification card that can only be read by the server that gave it to you.</p>
 
-                    <p>Our server generates one cookie which is used to keep track of the pages you have accessed while using our server. The cookie allows you to page back and forwards through the Web Site and return to pages you have already visited. The cookie exists only for the time you are accessing our server.</p>
+                  <p>Our server generates one cookie which is used to keep track of the pages you have accessed while using our server. The cookie allows you to page back and forwards through the Web Site and return to pages you have already visited. The cookie exists only for the time you are accessing our server.</p>
 
-                    <p>Cookies are not used for any other purpose at this Web Site We do not use cookies to collect personal information.</p>
+                  <p>Cookies are not used for any other purpose at this Web Site We do not use cookies to collect personal information.</p>
 
-                    <p>You may prevent the use of cookies by configuring your web browser accordingly. This may, however, hinder the web site's functionality.</p>
+                  <p>You may prevent the use of cookies by configuring your web browser accordingly. This may, however, hinder the web site's functionality.</p>
 
-                    <p><b>INFORMATION LOGGED</b></p>
-                    <p>When you visit this Web Site, our server logs the following information provided by your browser:</p>
+                  <p><b>INFORMATION LOGGED</b></p>
+                  <p>When you visit this Web Site, our server logs the following information provided by your browser:</p>
 
-                    <p>the type of browser and operating system your computer uses. your domain name extension (for example .com, .co.za). the referring site's address (the site where you clicked the link that led you to us). your server's IP address (a number which is unique to the computer connecting you to the Internet, which is usually one of your service provider's computers). the date and time of your visit. the address of the pages visited. the documents downloaded.</p>
+                  <p>the type of browser and operating system your computer uses. your domain name extension (for example .com, .co.za). the referring site's address (the site where you clicked the link that led you to us). your server's IP address (a number which is unique to the computer connecting you to the Internet, which is usually one of your service provider's computers). the date and time of your visit. the address of the pages visited. the documents downloaded.</p>
 
-                    <p>This information is used only for statistical analysis or system administration purposes. It is not associated or correlated with any other information we collect about you.</p>
+                  <p>This information is used only for statistical analysis or system administration purposes. It is not associated or correlated with any other information we collect about you.</p>
 
-                    <p><b>LINKS TO OTHER SITES</b></p>
-                    <p>This Web Site contains links to other sites. VAT Calculator is not responsible for the privacy practices of these web sites.</p>
+                  <p><b>LINKS TO OTHER SITES</b></p>
+                  <p>This Web Site contains links to other sites. VAT Calculator is not responsible for the privacy practices of these web sites.</p>
 
-                    <p><b>GOOGLE ANALYTICS VAT</b></p>
-                    <p>Calculator has activated the Google Analytics features for Display Advertising including Remarketing, Google Display Network Impression Reporting, and Google Analytics Demographics and Interest Reporting. These features ensure that visitors only receive adverts relevant to them. Visitors can opt-out of Google Analytics for Display Advertising and customize Google Display Network ads using the Ads Settings or Google Analytics opt-out browser add-on VAT Calculator uses Remarketing with Google Analytics to advertise online. Third-party vendors, including Google, show VAT Calculator adverts on sites across the Internet. VAT Calculator and third-party vendors, including Google, use first-party cookies (such as the Google Analytics cookie) and third-party cookies (such as the DoubleClick cookie) together to inform, optimize, and serve ads based on a visitor's past visits to websites. VAT Calculator and third-party vendors, including Google, use first-party cookies (such as the Google Analytics cookies) and third-party cookies (such as the DoubleClick cookie) together to report how the ad impressions, other uses of ad services, and interactions with these ad impressions and ad services are related to visits to the VAT Calculator site.</p>
+                  <p><b>GOOGLE ANALYTICS VAT</b></p>
+                  <p>Calculator has activated the Google Analytics features for Display Advertising including Remarketing, Google Display Network Impression Reporting, and Google Analytics Demographics and Interest Reporting. These features ensure that visitors only receive adverts relevant to them. Visitors can opt-out of Google Analytics for Display Advertising and customize Google Display Network ads using the Ads Settings or Google Analytics opt-out browser add-on VAT Calculator uses Remarketing with Google Analytics to advertise online. Third-party vendors, including Google, show VAT Calculator adverts on sites across the Internet. VAT Calculator and third-party vendors, including Google, use first-party cookies (such as the Google Analytics cookie) and third-party cookies (such as the DoubleClick cookie) together to inform, optimize, and serve ads based on a visitor's past visits to websites. VAT Calculator and third-party vendors, including Google, use first-party cookies (such as the Google Analytics cookies) and third-party cookies (such as the DoubleClick cookie) together to report how the ad impressions, other uses of ad services, and interactions with these ad impressions and ad services are related to visits to the VAT Calculator site.</p>
 
-                    <p><b>GOOGLE DISCLAIMER</b></p>
-                    <p>We use third-party advertising companies to serve ads when you visit our website. These companies may use information (not including your name, address, email address, or telephone number) about your visits to this and other website's in order to provide advertisements about goods and services of interest to you. If you would like more information about this practice and to know your choices about not having this information used by these companies, click here.</p>
+                  <p><b>GOOGLE DISCLAIMER</b></p>
+                  <p>We use third-party advertising companies to serve ads when you visit our website. These companies may use information (not including your name, address, email address, or telephone number) about your visits to this and other website's in order to provide advertisements about goods and services of interest to you. If you would like more information about this practice and to know your choices about not having this information used by these companies, click here.</p>
                 </div>
             </div>
         </div>
