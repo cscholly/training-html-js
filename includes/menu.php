@@ -16,7 +16,7 @@
             <?php } ?>><a href="add_vat.php">Add VAT</li>
         <li <?php if ($page=='exclude_vat.php' ) { ?>class="active"
             <?php } ?>><a href="exclude_vat.php">Exclude VAT</a></li>
-        <li><a href="https://www.payecalculator.co.za">PAYE Calculator</a><span class="label label-info">NEW</a></li>
+        <li><a href="https://www.payecalculator.co.za">PAYE Calculator</a></li>
         <li><a href="mailto:webmaster@vatcalculator.co.za">Suggestions?</a></li>
     </ul>
 </div>
