@@ -13,54 +13,9 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap-theme.css">
     <link rel="stylesheet" href="css/custom.css">
-    
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-3909734093508165",
-    enable_page_level_ads: true
-  });
-</script>
-   
-    <style>
-        body {
-            padding-top: 50px;
-        }
-        
-        .starter-template {
-            padding: 40px 15px;
-            text-align: center;
-        }
-    </style>
 
-    <!--[if IE]>
-        <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
+    <?php include ( 'includes/header.php'); ?>
 
-<body>
-    <!-- Google Tag Manager -->
-    <noscript>
-        <iframe src="//www.googletagmanager.com/ns.html?id=GTM-PCMSX7" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-    </noscript>
-    <script>
-        (function(w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src =
-                '//www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-PCMSX7');
-    </script>
-    <!-- End Google Tag Manager -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <?php include ( 'includes/menu.php'); ?>
@@ -159,7 +114,7 @@
             <div class="pull-right">
                 <a href="add_vat.php" class="btn btn-primary btn-sm" role="button">Adding VAT calculator</a>
                 <a href="exclude_vat.php" class="btn btn-primary btn-sm" role="button">Excluding VAT calculator</a>
-                <a href="http://www.payecalculator.co.za" class="btn btn-primary btn-sm" role="button">PAYE calculator <span class="label label-info">New!</a></a>
+                <a href="https://www.payecalculator.co.za" class="btn btn-primary btn-sm" role="button">PAYE calculator <span class="label label-info">New!</a></a>
                 <a href="http://www.sars.gov.za/Pages/Forms.aspx?pageid=C62;" class="btn btn-primary btn-sm" role="button" target="_blank">For more guides and forms visit SARS.org.za</a>
             </div>
         </div>
