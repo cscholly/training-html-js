@@ -32,7 +32,8 @@
                 <div class="col-md-12">
                   <p>Persons accessing the VAT Calculator web site, subject themselves to and agree to VAT Calculator terms conditions and privacy policy, as set out below.</p>
 
-<p>WEBSITE DISCLAIMER The information and content made available on this Web Site is provided by VAT Calculator, detailing information about our company and its services. We make no representations or warranties, implied or otherwise, that, amongst others, the content available on this Web Site is free from errors or omissions or that the service will be 100% uninterrupted and error free.</p>
+<p><b>WEBSITE DISCLAIMER</b></p>
+<p>The information and content made available on this Web Site is provided by VAT Calculator, detailing information about our company and its services. We make no representations or warranties, implied or otherwise, that, amongst others, the content available on this Web Site is free from errors or omissions or that the service will be 100% uninterrupted and error free.</p>
 
 <p>We have taken, and will continue to take, due care and diligence that all information provided on this Web Site is, to the best of our knowledge and understanding, true and correct. However, VAT Calculator shall not be liable for any damage, loss or liability of whatsoever nature arising from the use or inability to use this Web Site, any information or content provided from and through this Web Site.</p>
 
@@ -44,7 +45,8 @@
 
 <p>USAGE This Web Site is only intended to provide the user with information regarding VAT Calculator, products offered and services rendered. VAT Calculator authorises the user to view, copy, download to a local drive, print, and distribute the content of this Web Site, or any part thereof, provided that: a. such content is used for informational and/or non-commercial purposes only; and b. any reproduction of the content of this Web Site, or portions thereof, must include the following copyright notice: &copy; VAT Calculator. Users wishing to use any content from this site for commercial purposes may only do so with prior written permission from VAT Calculator.</p>
 
-<p>INTELLECTUAL PROPERTY RIGHTS All content, trademarks and data on this Web Site, including but not limited to text, designs, graphics, and icons are the property of VAT Calculator. As such they are protected from infringement by domestic and international legislation and treaties. Subject to the rights afforded to the user herein, all other rights to all intellectual property on this site are expressly reserved and no license to VAT Calculator intellectual property has been granted on this Web Site.</p>
+<p><b>INTELLECTUAL PROPERTY RIGHTS</b></p>
+<p>All content, trademarks and data on this Web Site, including but not limited to text, designs, graphics, and icons are the property of VAT Calculator. As such they are protected from infringement by domestic and international legislation and treaties. Subject to the rights afforded to the user herein, all other rights to all intellectual property on this site are expressly reserved and no license to VAT Calculator intellectual property has been granted on this Web Site.</p>
 
 <p>INFORMATION NOT UPDATED OR TO BE RELIED ON While VAT Calculator uses all reasonable efforts to include accurate and up-to-date information on the Web Site, VAT Calculator makes no warranties or representations with respect to the content of the Web Site VAT Calculator assumes no responsibility for updating the Web Site or its content or notifying users of information that is inaccurate, incomplete, or out-of-date.</p>
 
