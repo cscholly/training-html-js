@@ -28,18 +28,6 @@
             <div class="jumbotron col-md-8" style="margin-top:30px">
                 <h2>Calculator for adding 15% South African VAT</h2>
             </div>
-                <div class="col-md-4">
-                                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
-                    </script>
-                        <!-- VAT SA Square -->
-                        <ins class="adsbygoogle"
-                             style="display:inline-block;width:300px;height:250px"
-                             data-ad-client="ca-pub-0590369945323371"
-                             data-ad-slot="5478372576"></ins>
-                    <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
-                </div>
 
             <div class="row">
                 <div class="col-md-6">
