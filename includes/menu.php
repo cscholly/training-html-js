@@ -13,7 +13,7 @@
         <li <?php if ($page=='index.php' ) { ?>class="active"
             <?php } ?>><a href="index.php">Helpful VAT information</a></li>
         <li <?php if ($page=='add_vat.php' ) { ?>class="active"
-            <?php } ?>><a href="add_vat.php">Add VAT</li>
+            <?php } ?>><a href="add_vat.php">Add VAT</a></li>
         <li <?php if ($page=='exclude_vat.php' ) { ?>class="active"
             <?php } ?>><a href="exclude_vat.php">Exclude VAT</a></li>
         <li><a href="https://www.payecalculator.co.za">PAYE Calculator</a></li>
