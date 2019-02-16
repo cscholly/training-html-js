@@ -28,7 +28,7 @@
             <!-- News and Updates pop-up start-->
             <div class="alert alert-info alert-dismissible fade in" role="alert" style="margin-top:30px" ;>
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <strong>We now support the new 15% VAT rate.</strong>
+                <strong>Support added for the new 15% VAT rate.</strong>
             </div>
             <!-- News and Updates pop-up end -->
             <div class="page-header">
@@ -101,6 +101,9 @@
                 <h1>Downloadable Files <small>Guides and documents supplied by SARS</small></h1>
             </div>
             <ul class="list-group">
+                <li class="list-group-item">Pocket Guide on the VAT rate increase on 1 April 2018
+                    <a href="downloads/LAPD-VAT-G02%20-%20VAT%20404%20Guide%20for%20Vendors%20-%20External%20Guide.pdf" class="pull-right" target="_blank"> <span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
+                </li>
                 <li class="list-group-item">Guide - VAT Vendors information <em>(aimed at all registered VAT entities)</em>
                     <a href="downloads/LAPD-VAT-G02%20-%20VAT%20404%20Guide%20for%20Vendors%20-%20External%20Guide.pdf" class="pull-right" target="_blank"> <span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
                 </li>
@@ -114,7 +117,7 @@
             <div class="pull-right">
                 <a href="add_vat.php" class="btn btn-primary btn-sm" role="button">Adding VAT calculator</a>
                 <a href="exclude_vat.php" class="btn btn-primary btn-sm" role="button">Excluding VAT calculator</a>
-                <a href="https://www.payecalculator.co.za" class="btn btn-primary btn-sm" role="button">PAYE calculator <span class="label label-info">New!</a></a>
+                <a href="https://www.payecalculator.co.za" class="btn btn-primary btn-sm" role="button">PAYE Calculator <span class="label label-info">Updated for 2019!</a></a>
                 <a href="http://www.sars.gov.za/Pages/Forms.aspx?pageid=C62;" class="btn btn-primary btn-sm" role="button" target="_blank">For more guides and forms visit SARS.org.za</a>
             </div>
         </div>
