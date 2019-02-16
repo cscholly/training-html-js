@@ -43,7 +43,8 @@
                                             <input type="text" class="form-control" aria-label="Amount (to the nearest rand)" id="input">
                                         </div>
                                         <div style="margin-top:10px">
-                                            <button type="submit" class="btn btn-default" onclick="exclVAT()" id="exclVAT">Remove VAT</button>
+                                            <!-- <button type="submit" class="btn btn-default" onclick="exclVAT(); return false;" id="exclVAT">Remove VAT</button> -->
+                                            <button type="submit" id="exclVAT" class="btn btn-default" onclick="exclVAT()">Remove VAT</button>
                                             <button type="submit" class="btn btn-default" onclick="resetCalc(); return false;">Clear</button>
                                         </div>
                                     </div>
