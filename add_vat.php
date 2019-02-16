@@ -25,7 +25,7 @@
 
     <div id=wrap>
         <div class="container">
-            <div class="jumbotron col-md-8" style="margin-top:30px">
+            <div class="jumbotron col-md-12" style="margin-top:30px">
                 <h2>Calculator for adding 15% South African VAT</h2>
             </div>
 
