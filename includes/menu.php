@@ -16,6 +16,7 @@
             <?php } ?>><a href="add_vat.php">Add VAT <span class="label label-info">Calculator</a></li>
         <li <?php if ($page=='exclude_vat.php' ) { ?>class="active"
             <?php } ?>><a href="exclude_vat.php">Exclude VAT <span class="label label-info">Calculator</a></a></li>
+        <li><a href="https://www.payecalculator.co.za">PAYE Calculator</a><span class="label label-info">Updated 2019</a></li>
         <li><a href="mailto:webmaster@vatcalculator.co.za">Suggestions?</a></li>
     </ul>
 </div>
