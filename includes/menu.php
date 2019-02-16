@@ -5,7 +5,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
     </button>
-    <a class="navbar-brand" href="http://www.vatcalculator.co.za">VAT Calculator</a>
+    <a class="navbar-brand" href="https://www.vatcalculator.co.za">VAT Calculator</a>
 </div>
 
 <div class="collapse navbar-collapse">
@@ -16,6 +16,6 @@
             <?php } ?>><a href="add_vat.php">Add VAT <span class="label label-info">Calculator</a></li>
         <li <?php if ($page=='exclude_vat.php' ) { ?>class="active"
             <?php } ?>><a href="exclude_vat.php">Exclude VAT <span class="label label-info">Calculator</a></a></li>
-        <li><a href="mailto:webmaster@vatcalculator.co.za">Any suggestions?</a></li>
+        <li><a href="mailto:webmaster@vatcalculator.co.za">Suggestions?</a></li>
     </ul>
 </div>

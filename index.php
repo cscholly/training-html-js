@@ -13,54 +13,9 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap-theme.css">
     <link rel="stylesheet" href="css/custom.css">
-    
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-3909734093508165",
-    enable_page_level_ads: true
-  });
-</script>
-   
-    <style>
-        body {
-            padding-top: 50px;
-        }
-        
-        .starter-template {
-            padding: 40px 15px;
-            text-align: center;
-        }
-    </style>
 
-    <!--[if IE]>
-        <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
+    <?php include ( 'includes/header.php'); ?>
 
-<body>
-    <!-- Google Tag Manager -->
-    <noscript>
-        <iframe src="//www.googletagmanager.com/ns.html?id=GTM-PCMSX7" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-    </noscript>
-    <script>
-        (function(w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src =
-                '//www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-PCMSX7');
-    </script>
-    <!-- End Google Tag Manager -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <?php include ( 'includes/menu.php'); ?>
@@ -73,14 +28,14 @@
             <!-- News and Updates pop-up start-->
             <div class="alert alert-info alert-dismissible fade in" role="alert" style="margin-top:30px" ;>
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <strong>We now support the new 15% VAT rate.</strong>
+                <strong>Update: This website is now secured with SSL</strong>
             </div>
             <!-- News and Updates pop-up end -->
             <div class="page-header">
                 <h1>Helpful information <small>What is South African VAT all about?</small></h1>
             </div>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h3 class="panel-title">VAT explained</h3>
@@ -92,7 +47,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h3 class="panel-title">Who should register for VAT?</h3>
@@ -104,27 +59,19 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
-                    </script>
-                        <!-- VAT SA Square -->
-                        <ins class="adsbygoogle"
-                             style="display:inline-block;width:300px;height:250px"
-                             data-ad-client="ca-pub-0590369945323371"
-                             data-ad-slot="5478372576"></ins>
-                    <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
-                </div>
             </div>
-            <!-- Adsense Desktop Start -->
             <div class="panel panel-default hidden-xs hidden-sm">
                 <div class="panel-body text-center">
-                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                    <!-- VAT - Leaderboard - Home -->
-                    <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-0590369945323371" data-ad-slot="4659918578"></ins>
+                  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <!-- VAT Responsive Ads -->
+                    <ins class="adsbygoogle"
+                       style="display:block"
+                       data-ad-client="ca-pub-0590369945323371"
+                       data-ad-slot="5384268363"
+                       data-ad-format="auto"
+                       data-full-width-responsive="true"></ins>
                     <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    (adsbygoogle = window.adsbygoogle || []).push({});
                     </script>
                 </div>
             </div>
@@ -146,6 +93,9 @@
                 <h1>Downloadable Files <small>Guides and documents supplied by SARS</small></h1>
             </div>
             <ul class="list-group">
+                <li class="list-group-item">Pocket Guide on the VAT rate increase on 1 April 2018
+                    <a href="downloads/LAPD-VAT-G13%20-%20Pocket%20Guide%20on%20the%20VAT%20rate%20increase%20on%201%20April%202018.pdf" class="pull-right" target="_blank"> <span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
+                </li>
                 <li class="list-group-item">Guide - VAT Vendors information <em>(aimed at all registered VAT entities)</em>
                     <a href="downloads/LAPD-VAT-G02%20-%20VAT%20404%20Guide%20for%20Vendors%20-%20External%20Guide.pdf" class="pull-right" target="_blank"> <span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
                 </li>
@@ -153,13 +103,13 @@
                     <a href="downloads/GEN-ELEC-04-G01%20-%20Guide%20for%20Value%20Added%20Tax%20via%20eFiling%20-%20External%20Guide.pdf" class="pull-right" target="_blank"> <span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
                 </li>
                 <li class="list-group-item">Form - Application for Registration for Value Added Tax
-                    <a href="downloads/VAT101%20-%20Application%20for%20Registration%20for%20Value%20Added%20Tax%20-%20External%20Form.pdf" class="pull-right" target="_blank"> <span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
+                    <a href="downloads/VAT101%20-%20Value%20Added%20Tax%20Registration%20Application%20-%20External%20form.pdf" class="pull-right" target="_blank"> <span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
                 </li>
             </ul>
             <div class="pull-right">
                 <a href="add_vat.php" class="btn btn-primary btn-sm" role="button">Adding VAT calculator</a>
                 <a href="exclude_vat.php" class="btn btn-primary btn-sm" role="button">Excluding VAT calculator</a>
-                <a href="http://www.payecalculator.co.za" class="btn btn-primary btn-sm" role="button">PAYE calculator <span class="label label-info">New!</a></a>
+                <a href="https://www.payecalculator.co.za" class="btn btn-primary btn-sm" role="button">PAYE Calculator <span class="label label-info">Updated for 2019!</a></a>
                 <a href="http://www.sars.gov.za/Pages/Forms.aspx?pageid=C62;" class="btn btn-primary btn-sm" role="button" target="_blank">For more guides and forms visit SARS.org.za</a>
             </div>
         </div>
@@ -176,8 +126,6 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <!-- Go to www.addthis.com/dashboard to customize your tools -->
-    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-557eccdd09b75a91" async="async"></script>
 
 </body>
 
