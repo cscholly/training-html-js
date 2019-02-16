@@ -28,14 +28,14 @@
             <!-- News and Updates pop-up start-->
             <div class="alert alert-info alert-dismissible fade in" role="alert" style="margin-top:30px" ;>
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <strong>Update: This website is now secure (SSL)</strong>
+                <strong>Update: This website is now secured with SSL</strong>
             </div>
             <!-- News and Updates pop-up end -->
             <div class="page-header">
                 <h1>Helpful information <small>What is South African VAT all about?</small></h1>
             </div>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h3 class="panel-title">VAT explained</h3>
@@ -47,7 +47,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h3 class="panel-title">Who should register for VAT?</h3>
@@ -58,19 +58,6 @@
                             <a href="http://www.sars.gov.za/ClientSegments/Businesses/My-Bus-and-Tax/Pages/Register-and-Deregister-for-VAT.aspx" class="btn btn-primary btn-sm" role="button" target="_blank">More on registering for VAT</a>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                  <!-- VAT Responsive Ads -->
-                  <ins class="adsbygoogle"
-                       style="display:block"
-                       data-ad-client="ca-pub-0590369945323371"
-                       data-ad-slot="5384268363"
-                       data-ad-format="auto"
-                       data-full-width-responsive="true"></ins>
-                  <script>
-                  (adsbygoogle = window.adsbygoogle || []).push({});
-                  </script>
                 </div>
             </div>
             <div class="panel panel-default hidden-xs hidden-sm">
