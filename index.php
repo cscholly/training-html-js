@@ -28,7 +28,7 @@
             <!-- News and Updates pop-up start-->
             <div class="alert alert-info alert-dismissible fade in" role="alert" style="margin-top:30px" ;>
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <strong>Support added for the new 15% VAT rate.</strong>
+                <strong>Update: This website is now secure (SSL)</strong>
             </div>
             <!-- News and Updates pop-up end -->
             <div class="page-header">
@@ -60,26 +60,31 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
-                    </script>
-                        <!-- VAT SA Square -->
-                        <ins class="adsbygoogle"
-                             style="display:inline-block;width:300px;height:250px"
-                             data-ad-client="ca-pub-0590369945323371"
-                             data-ad-slot="5478372576"></ins>
-                    <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
+                  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                  <!-- VAT Responsive Ads -->
+                  <ins class="adsbygoogle"
+                       style="display:block"
+                       data-ad-client="ca-pub-0590369945323371"
+                       data-ad-slot="5384268363"
+                       data-ad-format="auto"
+                       data-full-width-responsive="true"></ins>
+                  <script>
+                  (adsbygoogle = window.adsbygoogle || []).push({});
+                  </script>
                 </div>
             </div>
-            <!-- Adsense Desktop Start -->
             <div class="panel panel-default hidden-xs hidden-sm">
                 <div class="panel-body text-center">
-                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                    <!-- VAT - Leaderboard - Home -->
-                    <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-0590369945323371" data-ad-slot="4659918578"></ins>
+                  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <!-- VAT Responsive Ads -->
+                    <ins class="adsbygoogle"
+                       style="display:block"
+                       data-ad-client="ca-pub-0590369945323371"
+                       data-ad-slot="5384268363"
+                       data-ad-format="auto"
+                       data-full-width-responsive="true"></ins>
                     <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    (adsbygoogle = window.adsbygoogle || []).push({});
                     </script>
                 </div>
             </div>

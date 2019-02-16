@@ -1,10 +1,13 @@
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-3909734093508165",
-    enable_page_level_ads: true
-  });
-</script>
+
+  <!-- Google Adsense Auto Ads start -->
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-0590369945323371",
+            enable_page_level_ads: true
+       });
+  </script>
+  <!-- Google Adsense Auto Ads ends -->
 
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
