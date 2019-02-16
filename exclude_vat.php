@@ -55,7 +55,7 @@
     <!-- End Google Tag Manager -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
-            <?php include('includes/menu.php');?>
+            <?php include ( 'includes/menu.php'); ?>
             <!--.nav-collapse -->
         </div>
     </nav>
@@ -155,7 +155,7 @@
     <!-- footer start -->
     <footer class="footer">
         <div class="container">
-            <?php include('includes/footer.php');?>
+            <?php include ( 'includes/footer.php'); ?>
         </div>
     </footer>
     <!-- footer end -->
