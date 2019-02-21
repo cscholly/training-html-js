@@ -22,12 +22,26 @@ body {
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
 
+body {
+  padding-top: 50px;
+}
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
 body > .container {
   padding: 60px 15px 0;
 }
 
 .jumbotron {
   background-color: #dbf6ff;
+}
+
+.table > thead > tr:first-child > td,
+.table > tbody > tr:first-child > td {
+   border: none;
 }
 
 .container .text-muted {
@@ -42,4 +56,3 @@ body > .container {
 code {
   font-size: 80%;
 }
-
