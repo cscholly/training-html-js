@@ -43,3 +43,9 @@ code {
   font-size: 80%;
 }
 
+<style>
+   .table > thead > tr:first-child > td,
+.table > tbody > tr:first-child > td {
+   border: none;
+}
+</style>
