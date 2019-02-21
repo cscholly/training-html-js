@@ -1,3 +1,13 @@
+<style>
+    body {
+        padding-top: 50px;
+    }
+
+    .starter-template {
+        padding: 40px 15px;
+        text-align: center;
+    }
+</style>
 
   <!-- Google Adsense Auto Ads start -->
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
