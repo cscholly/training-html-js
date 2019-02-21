@@ -39,6 +39,11 @@ body > .container {
   background-color: #dbf6ff;
 }
 
+.table > thead > tr:first-child > td,
+.table > tbody > tr:first-child > td {
+   border: none;
+}
+
 .container .text-muted {
   margin: 20px 0;
 }
@@ -50,9 +55,4 @@ body > .container {
 
 code {
   font-size: 80%;
-}
-
-.table > thead > tr:first-child > td,
-.table > tbody > tr:first-child > td {
-   border: none;
 }
