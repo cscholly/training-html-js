@@ -16,19 +16,13 @@
 
     <?php include ( 'includes/header.php'); ?>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <?php include ( 'includes/menu.php'); ?>
-            <!--.nav-collapse -->
-        </div>
-    </nav>
+    <?php include ( 'includes/menu.php'); ?>
 
     <div id=wrap>
         <div class="container">
             <div class="jumbotron col-md-12" style="margin-top:30px">
                 <h2 text align=center>Calculator for adding 15% South African VAT</h2>
             </div>
-
             <div class="row">
                 <div class="col-md-6">
                     <div class="panel panel-default">
